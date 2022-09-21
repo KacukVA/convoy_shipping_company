@@ -144,3 +144,4 @@ if __name__ == '__main__':
         file_path, data_frame = read_db(new_path, 'xml')
         file_path, counter = fill_xml(file_path, data_frame)
         print(f'{counter} {"vehicles were" if counter != 1 else "vehicle was"} saved into {file_path}')
+        # some comment
